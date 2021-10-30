@@ -2,7 +2,7 @@ import React from 'react';
 import tw, { styled } from 'twin.macro';
 
 const StyledH3 = styled.h3`
-  ${tw`text-4xl font-extrabold light:text-dark pt-5 text-center`}
+  ${tw`pt-5 text-4xl font-extrabold text-center light:text-dark`}
 `;
 
 const ContacthtmlForm = () => (
@@ -14,8 +14,14 @@ const ContacthtmlForm = () => (
       data-netlify="true"
       netlify="true"
       action="/success"
+      netlify-honeypot="true"
     >
       <div tw="flex flex-wrap -mx-3 mb-6">
+        <p tw="hidden">
+          <label>
+            Don’t fill this out if you’re human: <input name="bot-field" />
+          </label>
+        </p>
         <div tw="w-full md:w-1/2 px-3 mb-6 md:mb-0">
           <label
             tw="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
