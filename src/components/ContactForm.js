@@ -5,20 +5,21 @@ const StyledH3 = styled.h3`
   ${tw`text-4xl font-extrabold light:text-dark pt-5 text-center`}
 `;
 
-const ContactForm = () => (
+const ContacthtmlForm = () => (
   <div tw="w-full max-w-lg mt-12 mx-auto">
     <StyledH3>Contact me</StyledH3>
     <form
       tw="w-full max-w-lg mt-12 mx-auto"
       method="POST"
       data-netlify="true"
-      netlify
+      netlify="true"
+      action="/success"
     >
       <div tw="flex flex-wrap -mx-3 mb-6">
         <div tw="w-full md:w-1/2 px-3 mb-6 md:mb-0">
           <label
             tw="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-            for="grid-first-name"
+            htmlFor="grid-first-name"
           >
             First Name
           </label>
@@ -33,7 +34,7 @@ const ContactForm = () => (
         <div tw="w-full md:w-1/2 px-3">
           <label
             tw="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-            for="grid-last-name"
+            htmlFor="grid-last-name"
           >
             Last Name
           </label>
@@ -49,7 +50,7 @@ const ContactForm = () => (
         <div tw="w-full px-3">
           <label
             tw="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-            for="grid-password"
+            htmlFor="grid-password"
           >
             E-mail
           </label>
@@ -66,7 +67,7 @@ const ContactForm = () => (
         <div tw="w-full px-3">
           <label
             tw="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-            for="grid-password"
+            htmlFor="grid-password"
           >
             Message
           </label>
@@ -92,4 +93,4 @@ const ContactForm = () => (
   </div>
 );
 
-export default ContactForm;
+export default ContacthtmlForm;
