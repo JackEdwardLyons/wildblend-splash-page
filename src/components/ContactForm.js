@@ -1,9 +1,30 @@
 import React from 'react';
 import tw, { styled } from 'twin.macro';
+import { navigate } from 'gatsby';
 
 const StyledH3 = styled.h3`
   ${tw`pt-5 text-4xl font-extrabold text-center light:text-dark`}
 `;
+
+function encode(data) {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&');
+}
+
+const handleSubmit = (event) => {
+  event.preventDefault();
+  fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: encode({
+      'form-name': event.target.getAttribute('name'),
+      ...name,
+    }),
+  })
+    .then(() => navigate('/success'))
+    .catch((error) => alert(error));
+};
 
 const ContacthtmlForm = () => (
   <div tw="w-full max-w-lg mt-12 mx-auto">
@@ -13,8 +34,9 @@ const ContacthtmlForm = () => (
       method="POST"
       data-netlify="true"
       netlify="true"
-      action="/success"
       netlify-honeypot="true"
+      onSubmit={handleSubmit}
+      name="wildblendContacForm"
     >
       <div tw="flex flex-wrap -mx-3 mb-6">
         <p tw="hidden">
