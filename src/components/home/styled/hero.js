@@ -2,26 +2,13 @@ import tw, { styled } from 'twin.macro';
 
 const StyledHero = styled.article`
   ${tw`mt-16 md:mt-32`};
+  .hero-section {
+    ${tw`flex flex-col content-center items-center`};
+  }
 
   .hero-welcome {
-    ${tw`grid grid-template-areas["hero"] items-center`};
-    > * {
-      grid-area: hero;
-    }
-    h1 {
-      ${tw`w-3/5 pr-2 text-4xl font-extrabold light:text-dark md:text-6xl`};
-      .greeting {
-        ${tw`block mb-6 text-3xl md:text-4xl`};
-      }
-      span[role='img'] {
-        ${tw`ml-4`};
-      }
-      .gatsby {
-        ${tw`text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-yellow-500`};
-      }
-    }
-    svg {
-      ${tw`w-2/5 justify-self-end`};
+    .gatsby {
+      ${tw`text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-yellow-500`};
     }
   }
 

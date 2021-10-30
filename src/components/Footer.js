@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
+import WildblendGoldLogo from './img/WildBlendLogoGold';
 import StyledFooter from './styled/footer';
 import SocialList from './SocialList';
 
@@ -10,17 +11,14 @@ export default function Footer() {
   } = useStaticQuery(AuthorQuery);
   return (
     <StyledFooter>
-      <p className="title">
-        <svg role="img" aria-hidden="true">
-          <use xlinkHref="/logo.svg#logo" />
-        </svg>
-        {siteMetadata.title}
-      </p>
+      <WildblendGoldLogo />
+      {/* {siteMetadata.title} */}
+
       <SocialList />
       <p className="author">
-        Created by{' '}
+        Website created by{' '}
         <a
-          href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
+          href="https://jacklyons.me"
           target="_blank"
           rel="noopener noreferrer"
         >

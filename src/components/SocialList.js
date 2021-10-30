@@ -1,11 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faGithub,
-  faTwitter,
-  faDiscord,
-  faDev,
-} from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { StyledSocialList, StyledButton } from './styled';
 
@@ -15,45 +10,23 @@ export default function SocialList(props) {
       <li>
         <StyledButton
           as="a"
-          href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
-          aria-label="github repo"
+          href="https://instagram.com/wildblend"
+          aria-label="Wildblend instagram"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faInstagram} />
         </StyledButton>
       </li>
       <li>
         <StyledButton
           as="a"
-          href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
-          aria-label="github repo"
+          href="https://www.linkedin.com/in/zoelyons/"
+          aria-label="Zoe Lyons LinkedIn"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faTwitter} />
-        </StyledButton>
-      </li>
-      <li>
-        <StyledButton
-          as="a"
-          href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
-          aria-label="github repo"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faDev} />
-        </StyledButton>
-      </li>
-      <li>
-        <StyledButton
-          as="a"
-          href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
-          aria-label="github repo"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faDiscord} />
+          <FontAwesomeIcon icon={faLinkedin} />
         </StyledButton>
       </li>
     </StyledSocialList>

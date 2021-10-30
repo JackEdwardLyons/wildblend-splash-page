@@ -2,10 +2,10 @@ require('dotenv').config({ path: `.env` });
 
 module.exports = {
   siteMetadata: {
-    author: `Chris Williams`,
-    title: `Gatsby Emotion Tailwind Starter`,
-    description: `An example Gatsby starter making use of emotion and tailwind`,
-    siteUrl: `https://gatsby-emotion-tailwind-starter.netlify.app/`,
+    author: `Jack Lyons`,
+    title: `Wildblend`,
+    description: `Zoe Lyons, from Australia. Loves Unicorn Food and Lifting, A Challenge, Crossfit, Happiness and Health, All Things Wild & Natural. `,
+    siteUrl: `https://wildblend.co`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -31,13 +31,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Emotion Tailwind Starter`,
-        short_name: `GatsbyJS`,
+        name: `Wildblend`,
+        short_name: `Wildblend`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `standalone`,
-        icon: `src/images/icon/logo.png`,
+        icon: `src/images/icon/logo-gold.png`,
         theme_color_in_head: false,
       },
     },

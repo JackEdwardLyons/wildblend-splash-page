@@ -1,7 +1,7 @@
 import tw, { styled } from 'twin.macro';
 
 const StyledNav = styled.nav`
-  ${tw`grid grid-template-columns[1fr repeat(2, minmax(min-content, max-content))] gap-x-2 text-center place-items-center`};
+  ${tw`grid grid-template-columns[1fr repeat(2, minmax(min-content, max-content))] gap-x-2 text-center `};
 
   .logo {
     ${tw`flex items-center py-2 justify-self-start md:justify-center`};
