@@ -11,7 +11,7 @@ export default function IndexPage() {
   return (
     <Layout>
       <Seo description="Home page for a Gatsby Starter, featuring Emotion and Tailwind css" />
-      <StyledH1 class="gatsby">Success, your message was sent.</StyledH1>
+      <StyledH1>Success, your message was sent.</StyledH1>
       <br />
       <Link tw="underline" to="/">
         Click here to go back home.
