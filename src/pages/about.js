@@ -37,11 +37,6 @@ export default function AboutPage() {
                   ancestral diets, supplements, and training methods.
                 </p>
               </li>
-            </ul>
-          </div>
-          <div className="section ">
-            <h2>Features</h2>
-            <ul>
               <li>
                 <p>
                   Apart from travelling my life is pretty much dedicated to
