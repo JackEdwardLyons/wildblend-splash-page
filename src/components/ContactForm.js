@@ -82,7 +82,7 @@ const ContacthtmlForm = () => (
         <div tw="md:w-1/3">
           <button
             tw="mx-auto shadow focus:outline-none text-white font-bold py-2 px-4 rounded bg-gradient-to-r from-purple-500 to-yellow-500 hover:shadow-xl"
-            type="button"
+            type="submit"
           >
             Send message
           </button>
