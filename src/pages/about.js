@@ -11,86 +11,47 @@ export default function AboutPage() {
         <h1>About</h1>
         <div>
           <div className="section starter">
-            <h2>Gatsby Emotion Tailwind Starter</h2>
+            <h2>Zoe Lyons, founder of Wildblend</h2>
             <p>
-              A Gatsby starter combining some of my favourite libraries to
-              create an awesome template to build your own{' '}
-              <a href="https://jamstack.org/">JAMStack</a> website!
+              As an Iranian-looking half Greek half Austrian who migrated to
+              Australia to live and work here with my Australian husband, I'm a
+              cultural chameleon. My mixed background is probably one of the
+              main reasons why I feel most comfortable when I'm on the road
+              working remotely. I've lived and worked in Europe, Australia,
+              China and the US over the last 5 years.
             </p>
           </div>
           <div className="section tech">
-            <h2>Tech Stack</h2>
+            <h2>What I do</h2>
             <ul>
               <li>
-                <a
-                  className="gatsby"
-                  href="https://www.gatsbyjs.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Gatsby:
-                </a>{' '}
-                A blazing fast React framework for building websites & apps.
-              </li>
-              <li>
-                <a
-                  className="emotion"
-                  href="https://emotion.sh/docs/introduction"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Emotion:
-                </a>{' '}
-                Library designed for writing css styles with JavaScript.
-              </li>
-              <li>
-                <a
-                  className="tailwind"
-                  href="https://tailwindcss.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Tailwind CSS:
-                </a>{' '}
-                CSS framework that gives you all of the building blocks you need
-                to build bespoke designs with low-level utility classes.
+                <p>
+                  As of now, I am based on the Gold Coast, Australia where I
+                  create cookbooks for PaleoHacks. I also produce content,
+                  create recipes, and take pictures for my personal brand -
+                  Wildblend.co. My work as a recipe developer and nutritional
+                  writer has taught me that more and more people realize that
+                  what we put in our bodies has a direct effect on our health
+                  but also on our success and happiness in life. I love to dig
+                  deep and find out everything there is to know about foods,
+                  ancestral diets, supplements, and training methods.
+                </p>
               </li>
             </ul>
           </div>
-          <div className="section features">
+          <div className="section ">
             <h2>Features</h2>
             <ul>
-              <li>Lazy loading</li>
-              <li>Dark & Light Theme</li>
-              <li>Mobile friendly through Tailwind's utility classes</li>
-              <li>SEO friendly</li>
-              <li>Offline support</li>
               <li>
-                Host your own static website on{' '}
-                <a
-                  href="https://www.netlify.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Netlify
-                </a>
-                ,{' '}
-                <a
-                  href="https://vercel.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Vercel
-                </a>
-                ,{' '}
-                <a
-                  href="https://surge.sh/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Surge
-                </a>
-                , and many more!
+                <p>
+                  Apart from travelling my life is pretty much dedicated to
+                  health and fitness; I'm a Paleo eater, crossfitter, health nut
+                  and lover of all things untamed and natural. In the last year,
+                  I taught myself the advantages of a Paleo/Bulletproof
+                  lifestyle and ketogenic diet, the foundations of food
+                  photography, social media marketing and how to become a health
+                  food and fitness blogger. <a href="/">Let´s get in touch!</a>
+                </p>
               </li>
             </ul>
           </div>
