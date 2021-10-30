@@ -7,10 +7,12 @@ import StyledHero from './styled/hero';
 export function WildBlendLogo() {
   return (
     <StaticImage
-      src="../../images/wildblend_logo_2.png"
+      src="../../images/wildblend_logo.jpg"
       alt="Wildblend logo"
       placeholder="blurred"
       layout="fixed"
+      width={300}
+      heright={300}
     />
   );
 }
