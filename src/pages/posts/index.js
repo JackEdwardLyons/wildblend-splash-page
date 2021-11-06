@@ -1,10 +1,9 @@
 import React from 'react';
 
-import tw from 'twin.macro';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import { Link, graphql } from 'gatsby';
 import { Layout } from '../../components';
-import { GatsbyImage } from 'gatsby-plugin-image';
-import styled from '@emotion/styled';
+import tw from 'twin.macro';
 
 const PostLink = ({ post, image }) => (
   <Link to={post.id}>
