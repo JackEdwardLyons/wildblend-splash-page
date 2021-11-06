@@ -32,6 +32,7 @@ const ContacthtmlForm = () => {
         firstName,
         lastName,
         message,
+        email,
       }),
     })
       .then(() => navigate('/success'))
@@ -103,7 +104,7 @@ const ContacthtmlForm = () => {
               tw="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="email"
               type="email"
-              name="emailAddress"
+              name="email"
               required
               placeholder="Your email"
               value={email}
