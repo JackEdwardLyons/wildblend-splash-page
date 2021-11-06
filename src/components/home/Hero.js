@@ -12,7 +12,7 @@ export function WildBlendLogo() {
       placeholder="blurred"
       layout="fixed"
       width={300}
-      heright={300}
+      height={300}
     />
   );
 }

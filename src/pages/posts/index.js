@@ -3,13 +3,17 @@ import React from 'react';
 import tw from 'twin.macro';
 import { Link, graphql } from 'gatsby';
 import { Layout } from '../../components';
+import { GatsbyImage } from 'gatsby-plugin-image';
+import styled from '@emotion/styled';
 
-const PostLink = ({ post }) => (
-  <h2>
-    <Link to={post.id}>
+const PostLink = ({ post, image }) => (
+  <Link to={post.id}>
+    {image}
+
+    <h2 tw="text-center text-xl font-semibold py-2 hover:underline shadow-md cursor-pointer hover:shadow-lg ">
       {post.frontmatter.title} ({post.frontmatter.date})
-    </Link>
-  </h2>
+    </h2>
+  </Link>
 );
 
 const PostPage = ({
@@ -19,18 +23,32 @@ const PostPage = ({
 }) => {
   const Posts = edges
     .filter((edge) => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map((edge) => (
-      <li
-        tw="py-2 text-xl hover:underline hover:text-yellow-600"
-        key={edge.node.id}
-      >
-        <PostLink post={edge.node} />
-      </li>
-    ));
+    .map((edge) => {
+      const coverImage = edge.node.frontmatter.coverImage;
+      const imgSrc = `images/${coverImage}`;
+      const linkImage = (
+        <img
+          tw="filter hover:blur-sm"
+          src={imgSrc}
+          alt={edge.node.title ?? 'Wildblend image'}
+        />
+      );
+
+      return (
+        <li key={edge.node.id} tw="h-full ">
+          <PostLink post={edge.node} image={linkImage}></PostLink>
+        </li>
+      );
+    });
+
   return (
     <Layout>
-      <h1 tw="text-2xl underline mt-10 py-4 ">Wildblend posts</h1>
-      <ul tw="list-disc">{Posts}</ul>
+      <h1 tw="text-3xl font-semibold underline mt-10 py-4 text-center mb-4">
+        Wildblend posts
+      </h1>
+      <ul className="masonry" tw="grid grid-cols-3 gap-5">
+        {Posts}
+      </ul>
     </Layout>
   );
 };
@@ -45,6 +63,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            coverImage
           }
         }
       }

@@ -1,6 +1,7 @@
 ---
-title: "Product & Food Photography"
-date: "2019-03-11"
+title: 'Product & Food Photography'
+date: '2019-03-11'
+coverImage: 'avo-placeholder.jpg'
 ---
 
 Need me to photograph a recipe or product for your website, publication, or marketing material?

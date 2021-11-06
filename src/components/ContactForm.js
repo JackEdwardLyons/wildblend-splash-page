@@ -18,7 +18,7 @@ const ContacthtmlForm = () => {
         (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
       )
       .join('&');
-    console.log({ encodedData });
+
     return encodedData;
   }
 

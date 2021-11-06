@@ -1,6 +1,7 @@
 ---
-title: "Workshops"
-date: "2017-12-23"
+title: 'Workshops'
+date: '2017-12-23'
+coverImage: 'avo-placeholder.jpg'
 ---
 
 ## Healthy Raw Treats Workshop
@@ -28,7 +29,7 @@ We will cover:
 
 ## Food Styling & Photography Workshop
 
-## 
+##
 
 <iframe src="https://www.youtube.com/embed/ID_7YRF3cYE" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 

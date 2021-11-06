@@ -1,9 +1,9 @@
 import * as React from 'react';
 // app font & weights
-import '@fontsource/open-sans/300.css';
-import '@fontsource/open-sans/400.css';
-import '@fontsource/open-sans/700.css';
-import '@fontsource/open-sans/800.css';
+import '@fontsource/montserrat/300.css';
+import '@fontsource/montserrat/400.css';
+import '@fontsource/montserrat/700.css';
+import '@fontsource/montserrat/800.css';
 
 import { ThemeProvider } from './src/context/theme';
 // prevent icon fouc

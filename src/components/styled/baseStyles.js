@@ -19,7 +19,7 @@ const baseStyles = css`
     }
 
     #___gatsby {
-      ${tw`max-w-5xl min-h-screen mx-auto px-2 lg:px-0`};
+      ${tw`max-w-5xl min-h-screen px-2 mx-auto lg:px-0`};
     }
 
     a {
@@ -29,6 +29,8 @@ const baseStyles = css`
     #skip-link {
       ${tw`sr-only focus:(not-sr-only fixed left-1 top-1.5 bg-primary)`};
     }
+
+    font-family: 'montserrat', georgia, serif;
   }
 `;
 

@@ -32,12 +32,20 @@ Address: Hong Kong, 中環Shop 2096B, 8 Finance Street, Central [http://www.geni
 
  
 
-\[caption id="attachment\_1296" align="alignnone" width="734"\]![Foodie Guide to Hong Kong](images/Foodie-Guide-Hongkong_01.jpg) ad 1) Mana!\[/caption\]
+![Foodie Guide to Hong Kong](images/Foodie-Guide-Hongkong_01.jpg)
 
-\[caption id="attachment\_1295" align="alignnone" width="742"\]![Foodie Guide to Hong Kong](images/Foodie-Guide-Hongkong_02.jpg) ad 2) Nood Food\[/caption\]
+ad 1) Mana!
 
-\[caption id="attachment\_1298" align="alignnone" width="728"\]![Foodie Guide to Hong Kong](images/Foodie-Guide-Hong-Kong_06.png) ad 3) Anything but Salads\[/caption\]
+![Foodie Guide to Hong Kong](images/Foodie-Guide-Hongkong_02.jpg)
 
-\[caption id="attachment\_1293" align="alignnone" width="756"\]![Foodie Guide to Hong Kong](images/Foodie-Guide-Hongkong_05.jpg) ad 4) Genie Juicery\[/caption\]
+ad 2) Nood Food
+
+![Foodie Guide to Hong Kong](images/Foodie-Guide-Hong-Kong_06.png)
+
+ad 3) Anything but Salads
+
+![Foodie Guide to Hong Kong](images/Foodie-Guide-Hongkong_05.jpg)
+
+ad 4) Genie Juicery
 
 Do you love travelling in Asia? You might also like my Foodie Guide Shanghai.
