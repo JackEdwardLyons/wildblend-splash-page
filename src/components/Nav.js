@@ -7,10 +7,13 @@ import WildblendGoldLogo from './img/WildBlendLogoGold';
 export default function Nav() {
   return (
     <StyledNav aria-label="Main Navigation">
-      <WildblendGoldLogo />
+      <Link to="/" className="logo">
+        {' '}
+        <WildblendGoldLogo />
+      </Link>
 
-      <Link to="/">home</Link>
       <Link to="/about">about</Link>
+      <Link to="/posts">posts</Link>
     </StyledNav>
   );
 }

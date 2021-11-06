@@ -11,7 +11,7 @@ const StyledNav = styled.nav`
   }
 
   a:not(.logo) {
-    ${tw`flex items-center p-3 motion-safe:transition duration-200 tracking-wide border-b-2 border-transparent md:(ml-0 px-10 text-lg) hover:text-yellow-500`};
+    ${tw`flex items-center p-3 motion-safe:transition duration-200 tracking-wide border-b-2 border-transparent md:(ml-0 px-10 text-lg) hover:text-yellow-600`};
     &[aria-current='page'],
     &:hover {
       ${tw`border-yellow-500`};
